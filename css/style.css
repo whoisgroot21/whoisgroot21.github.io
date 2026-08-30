@@ -5,24 +5,61 @@ html
 }
 
 
+body
+{
 
-h1
+	font-size: 1rem;
+	max-width: 50%;/*75%;*/
+	margin: auto;
+	line-height: 1.5;
+}
+
+h1, h2, p, a
 {
 	color: white;
 }
 
-h2
+
+.heading
 {
-	/*margin: 100px;*/
+	text-align: center;
 }
 
-.subtitle
+.heading h1
 {
-	color: white;
+	font-size: 3.2rem;
+	margin: auto auto;
+}
+.heading p
+{
+	margin: auto auto;
 }
 
-
-a
+.links
 {
-	color: white;
+	display: flex;
+	gap: 8px;
+}
+
+.project-images
+{
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: flex;
+	/*justify-content: space-around;*/
+	justify-content: flex-start;
+	gap: 16px;
+	max-height: 20vh;
+}
+.project-images img
+{
+	/*
+	cursor: zoom-in;
+	cursor: zoom-out;
+	transform: scale(3);
+	*/
+	max-width: 100%;
+	max-height: inherit;
+	height: auto;
+	width: auto;
 }
