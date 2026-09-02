@@ -37,29 +37,42 @@ h1, h2, p, a
 
 .links
 {
+	margin: 32px 0px;
 	display: flex;
 	gap: 8px;
 }
 
-.project-images
+
+.project-body
 {
-	margin-top: 16px;
-	margin-bottom: 16px;
 	display: flex;
-	/*justify-content: space-around;*/
-	justify-content: flex-start;
 	gap: 16px;
-	max-height: 20vh;
+	width: 100%;
 }
+.project-body .text
+{
+	flex: 1;
+}
+.project-body .image
+{
+	flex: 0 0 30%;
+}
+.project-body .image img
+{
+	width: 100%;
+	height: auto;
+}
+
+
+.image
+{
+
+}
+
+/* implement this 
 .project-images img
 {
-	/*
 	cursor: zoom-in;
 	cursor: zoom-out;
 	transform: scale(3);
-	*/
-	max-width: 100%;
-	max-height: inherit;
-	height: auto;
-	width: auto;
-}
+}*/
