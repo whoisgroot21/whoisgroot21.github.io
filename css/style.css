@@ -8,30 +8,29 @@ html
 body
 {
 	font-size: 1rem;
-	max-width: min(calc(100% - 2.5rem), 64rem);/*64rem; or 1024px; or 50%;*/
+	max-width: min(calc(100% - 2.5rem), 48rem);
 	margin: auto;
-	line-height: 1.5;
+	line-height: 1.6;
+	color: #c0c0c0;
 }
 
-h1, h2, p, a
+h1, h2, h3, h4
 {
 	color: white;
 }
-
-
-.heading
+a
 {
-	text-align: center;
+	color: inherit;
 }
 
-.heading h1
+
+header
 {
-	font-size: 3.2rem;
-	margin: auto auto;
-}
-.heading p
-{
-	margin: auto auto;
+	font-weight: 640;
+	color: white;
+	font-size: 1.6rem;/*1.2rem;*/
+	margin-top: 32px;
+
 }
 
 .links
