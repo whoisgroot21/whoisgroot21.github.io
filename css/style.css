@@ -8,7 +8,7 @@ html
 body
 {
 	font-size: 1rem;
-	max-width: min(100% - 2rem, 64rem);/*64rem; or 1024px; or 50%;*/
+	max-width: min(calc(100% - 2rem), 64rem);/*64rem; or 1024px; or 50%;*/
 	margin: auto;
 	line-height: 1.5;
 }
